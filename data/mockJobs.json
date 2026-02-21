@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "Google",
+    "location": "Bangalore",
+    "type": "Full-time",
+    "salary": "₹10–15 LPA",
+    "description": "Looking for a Frontend Developer skilled in HTML, CSS, JavaScript, and React."
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer Intern",
+    "company": "Amazon",
+    "location": "Chennai",
+    "type": "Internship",
+    "salary": "₹25,000 / month",
+    "description": "Node.js and MongoDB knowledge required. Hands-on API development."
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Developer",
+    "company": "Microsoft",
+    "location": "Remote",
+    "type": "Full-time",
+    "salary": "₹12–18 LPA",
+    "description": "Work on frontend and backend systems using MERN stack."
+  },
+  {
+    "id": 4,
+    "title": "Java Developer",
+    "company": "Infosys",
+    "location": "Bangalore",
+    "type": "Full-time",
+    "salary": "₹6–8 LPA",
+    "description": "Strong understanding of Java, OOP concepts, and problem solving."
+  },
+  {
+    "id": 5,
+    "title": "UI/UX Designer Intern",
+    "company": "Swiggy",
+    "location": "Remote",
+    "type": "Internship",
+    "salary": "₹20,000 / month",
+    "description": "Design user-friendly web interfaces and collaborate with developers."
+  },
+  {
+    "id": 6,
+    "title": "React Developer",
+    "company": "Zoho",
+    "location": "Chennai",
+    "type": "Full-time",
+    "salary": "₹8–12 LPA",
+    "description": "Build scalable React applications with API integration."
+  },
+  {
+    "id": 7,
+    "title": "Software Engineer Intern",
+    "company": "Flipkart",
+    "location": "Bangalore",
+    "type": "Internship",
+    "salary": "₹30,000 / month",
+    "description": "Work with senior engineers on real-world software projects."
+  },
+  {
+    "id": 8,
+    "title": "Web Developer",
+    "company": "TCS",
+    "location": "Remote",
+    "type": "Part-time",
+    "salary": "₹40,000 / month",
+    "description": "Maintain and enhance existing web applications."
+  }
+]

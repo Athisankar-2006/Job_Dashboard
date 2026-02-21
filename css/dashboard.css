@@ -1,0 +1,60 @@
+/* ===== DASHBOARD ENHANCEMENTS ===== */
+
+/* Job Card Hover Effect */
+.job-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Badge Styles */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-right: 0.4rem;
+}
+
+.badge.full-time {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+}
+
+.badge.internship {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.badge.part-time {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-light);
+}
+
+.empty-state h2 {
+    margin-bottom: 0.5rem;
+}
+
+/* Saved Job Indicator */
+.save-btn.saved {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* Dashboard Title (future use) */
+.dashboard-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 1.5rem 0 1rem;
+}
