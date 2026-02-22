@@ -1,6 +1,9 @@
 
 import { filterJobs } from "./components/filters.js";
 import { createJobCard } from "./components/jobCard.js";
+import { showLoader, hideLoader } from "./utils/loader.js";
+import { showError, hideError } from "./utils/errorHandler.js";
+import { saveJob } from "./utils/storage.js";
 
 // import the api fetched function from jobsapi.js file
 import { fetchjobs } from ".api/jobsApi.js";
@@ -201,8 +204,8 @@ function applyFliter(){
 async function loadJobs(){
 
     try{
-        showLoader();
-        showError();
+        showLoader(loader);
+        showError(errorMessage);
 
         //fetch jobs
         allJobs=await fetchjobs();
@@ -211,15 +214,16 @@ async function loadJobs(){
         renderJobs(allJobs);
         updateStatus(allJobs);
         renderCharts(allJobs);
-    }catch(error){
-        showError();
+    }catch(err){
+        showError(errorMessage, "failed to load jobs");
     }finally{
-        hideLoader();
+        hideLoader(loader);
     }
 }
 
 
 function handleSaveJob(job) {
+    saveJob(job);
     console.log("Saved job:", job.title);
 }
 
